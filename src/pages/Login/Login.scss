@@ -1,0 +1,101 @@
+.background {
+  background-color: #001f3f;
+  flex: 1;
+
+  justify-content: space-between;
+}
+.container {
+  align-items: center;
+}
+.title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #fcfdfd;
+  padding-bottom: 8;
+}
+.description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #e3e7ed;
+  width: 344px;
+  padding-bottom: 20;
+}
+.inputContainer {
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: row;
+  padding: 14px 0px 14px 16px;
+  gap: 12px;
+  height: 52px;
+  background: #193555;
+  border: 1px solid #334b6a;
+  border-radius: 8px;
+  width: 90%;
+  margin-bottom: 20;
+}
+.input {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.button1 {
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  height: 48px;
+  background: #ede68a;
+  border-radius: 8px;
+  width: 90%;
+}
+.buttin2 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 50.26px;
+  border: 1px solid #ede68a;
+  border-radius: 8px;
+  width: 90%;
+}
+.button1Text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #001f3f;
+}
+.or {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 0;
+}
+.button2Text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ede68a;
+}

@@ -12,8 +12,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2386D94AD728433EBE9E6793 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 451547E4E86D4077AA624C1D /* DMSans-Medium.ttf */; };
+		5A2C456D6B8140DDB0519103 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF44A8A8E12040BC9F5EFEC9 /* DMSans-MediumItalic.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-nftapp-nftappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-nftapp-nftappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A6B10F956DE480EA1F5556B /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D73D38B7C7C4728975AD116 /* DMSans-Italic.ttf */; };
+		B55C95EFF45E48E2857C75CF /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6650EF4CDDF94FDBB03ABF5E /* DMSans-BoldItalic.ttf */; };
+		D8DF4364F0654D1C81EA8C52 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17316B9AA22E404DB2765DEA /* DMSans-Regular.ttf */; };
+		FFDC2BAC743D4273AE819DC1 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44B86CAD0E4E40C58871443A /* DMSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +36,25 @@
 		00E356EE1AD99517003FC87E /* nftappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nftappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* nftappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nftappTests.m; sourceTree = "<group>"; };
+		0D73D38B7C7C4728975AD116 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../src/assets/font/DMSans-Italic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* nftapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nftapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = nftapp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = nftapp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nftapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nftapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = nftapp/main.m; sourceTree = "<group>"; };
+		17316B9AA22E404DB2765DEA /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../src/assets/font/DMSans-Regular.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-nftapp-nftappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nftapp-nftappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-nftapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftapp.debug.xcconfig"; path = "Target Support Files/Pods-nftapp/Pods-nftapp.debug.xcconfig"; sourceTree = "<group>"; };
+		44B86CAD0E4E40C58871443A /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../src/assets/font/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		451547E4E86D4077AA624C1D /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../src/assets/font/DMSans-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-nftapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftapp.release.xcconfig"; path = "Target Support Files/Pods-nftapp/Pods-nftapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-nftapp-nftappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftapp-nftappTests.debug.xcconfig"; path = "Target Support Files/Pods-nftapp-nftappTests/Pods-nftapp-nftappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-nftapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nftapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6650EF4CDDF94FDBB03ABF5E /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../src/assets/font/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = nftapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-nftapp-nftappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftapp-nftappTests.release.xcconfig"; path = "Target Support Files/Pods-nftapp-nftappTests/Pods-nftapp-nftappTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF44A8A8E12040BC9F5EFEC9 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../src/assets/font/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				95B3B5EC5852453DA95957C4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +148,20 @@
 				00E356EE1AD99517003FC87E /* nftappTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		95B3B5EC5852453DA95957C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44B86CAD0E4E40C58871443A /* DMSans-Bold.ttf */,
+				6650EF4CDDF94FDBB03ABF5E /* DMSans-BoldItalic.ttf */,
+				0D73D38B7C7C4728975AD116 /* DMSans-Italic.ttf */,
+				451547E4E86D4077AA624C1D /* DMSans-Medium.ttf */,
+				BF44A8A8E12040BC9F5EFEC9 /* DMSans-MediumItalic.ttf */,
+				17316B9AA22E404DB2765DEA /* DMSans-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +271,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FFDC2BAC743D4273AE819DC1 /* DMSans-Bold.ttf in Resources */,
+				B55C95EFF45E48E2857C75CF /* DMSans-BoldItalic.ttf in Resources */,
+				9A6B10F956DE480EA1F5556B /* DMSans-Italic.ttf in Resources */,
+				2386D94AD728433EBE9E6793 /* DMSans-Medium.ttf in Resources */,
+				5A2C456D6B8140DDB0519103 /* DMSans-MediumItalic.ttf in Resources */,
+				D8DF4364F0654D1C81EA8C52 /* DMSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +525,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -517,6 +551,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
