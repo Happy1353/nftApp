@@ -8,15 +8,29 @@ import {
   View,
 } from 'react-native';
 
+import {LoginInvalid} from '../../utils/toasts';
+
 import styles from './Login.scss';
 import ETHERSVG from '../../assets/ether.svg';
 import EMAILSVG from '../../assets/email.svg';
 import LOCKSVG from '../../assets/lock.svg';
-import METAMASKSVG from '../../assets/metamask.svg';
 
-export const Login = () => {
+type Props = {
+  navigation: any;
+};
+
+export const Login = ({navigation}: Props) => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
+
+  //simple login logic
+  const Login = () => {
+    if (email == 'admin' && password == 'password') {
+      navigation.navigate('Main');
+    } else {
+      LoginInvalid();
+    }
+  };
 
   return (
     <SafeAreaView style={styles.background}>
@@ -51,13 +65,8 @@ export const Login = () => {
         </Pressable>
       </View>
       <View style={styles.container}>
-        <TouchableOpacity style={styles.button1}>
+        <TouchableOpacity style={styles.button1} onPress={Login}>
           <Text style={styles.button1Text}>Enter</Text>
-        </TouchableOpacity>
-        <Text style={styles.or}>or</Text>
-        <TouchableOpacity style={styles.buttin2}>
-          <Text style={styles.button2Text}>Enter via metamask</Text>
-          <METAMASKSVG />
         </TouchableOpacity>
       </View>
     </SafeAreaView>
