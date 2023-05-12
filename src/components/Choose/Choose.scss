@@ -1,0 +1,36 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+  height: 36px;
+  border: 1px solid #193555;
+  border-radius: 8px;
+  margin-right: 10;
+}
+.containerActive {
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+  height: 36px;
+  background: #193555;
+  border-radius: 8px;
+  margin-right: 10;
+}
+.text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fcfdfd;
+}
+.textActive {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ede68a;
+}
