@@ -26,7 +26,7 @@ export const Login = ({navigation}: Props) => {
   //simple login logic
   const Login = () => {
     if (email == 'admin' && password == 'password') {
-      navigation.navigate('Main');
+      navigation.navigate('Home');
     } else {
       LoginInvalid();
     }

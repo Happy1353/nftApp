@@ -1,6 +1,12 @@
 import React from 'react';
-import {View} from 'react-native';
+import {SafeAreaView, Text} from 'react-native';
+
+import styles from './Home.scss';
 
 export const Home = () => {
-  return <View></View>;
+  return (
+    <SafeAreaView style={styles.background}>
+      <Text>hi</Text>
+    </SafeAreaView>
+  );
 };
