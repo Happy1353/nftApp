@@ -2,3 +2,33 @@
   background-color: #001f3f;
   flex: 1;
 }
+.walletContainer {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  gap: 8px;
+  height: 36px;
+  background: #193555;
+  border-radius: 8px;
+}
+.walletEtherContainer {
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100px;
+  background: #001f3f;
+}
+.walletAvatar {
+  width: 24;
+  height: 24;
+}
+.walletMoney {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
