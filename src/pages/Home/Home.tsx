@@ -2,6 +2,7 @@ import React from 'react';
 import {SafeAreaView, Text, View, Image} from 'react-native';
 
 import {Choose} from '../../components/Choose/Choose';
+import {Nft} from '../../components/Nft/Nft';
 
 import styles from './Home.scss';
 import avatar from '../../assets/avatar.jpg';
@@ -22,6 +23,7 @@ export const Home = () => {
           <Image source={avatar} style={styles.walletAvatar} />
         </View>
         <Choose />
+        <Nft />
       </View>
     </SafeAreaView>
   );
